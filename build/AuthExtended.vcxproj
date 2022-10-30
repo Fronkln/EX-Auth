@@ -157,7 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\HookInit.cpp" />
-    <ClCompile Include="..\source\Parless.cpp" />
     <ClCompile Include="..\source\Utils\Patterns.cpp" />
     <ClCompile Include="Globals.cpp" />
   </ItemGroup>

@@ -70,9 +70,6 @@
     <ClCompile Include="..\source\HookInit.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\source\Parless.cpp">
-      <Filter>Sources</Filter>
-    </ClCompile>
     <ClCompile Include="..\source\Utils\Patterns.cpp">
       <Filter>Sources\Utils</Filter>
     </ClCompile>
