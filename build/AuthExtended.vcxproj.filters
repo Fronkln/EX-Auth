@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C196CD9C-2D76-4C38-368E-D70EA2ECB299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Utils">
+      <UniqueIdentifier>{E1E4B35E-4DA5-2F95-16E0-7812825F7471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\minhook">
+      <UniqueIdentifier>{05DB65F9-7166-D3BD-7A77-56B2E6812FBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\minhook\src">
+      <UniqueIdentifier>{9C93519F-08F5-2EAD-9162-755FFDC2656C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Utils">
+      <UniqueIdentifier>{A95ACC6C-151B-48A3-DE55-91204AD58C7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{2098880B-8CA1-887C-151D-9F7C8125947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\Win64">
+      <UniqueIdentifier>{6768E638-D3D2-9AAF-1C11-4C5588BA7804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\Win64\Debug">
+      <UniqueIdentifier>{1DE46CE1-896F-DAA5-9280-5D9AFE8A36A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\Win64\Debug\AuthExtended">
+      <UniqueIdentifier>{0FD97CAE-FB93-6C5A-A44B-E5A490E5B6EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\Win64\Release">
+      <UniqueIdentifier>{97D69126-03ED-8FBC-4C64-1BDEB8B96044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\Win64\Release\AuthExtended">
+      <UniqueIdentifier>{C9813621-B5A7-0088-9EED-85538AB22554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\Maps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\StringHelpers.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utils\HookInit.hpp">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utils\MemoryMgr.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utils\Patterns.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utils\Trampoline.h">
+      <Filter>Headers\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\minhook\src\trampoline.h">
+      <Filter>Headers\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Utils\NodeFactory.h" />
+    <ClInclude Include="Nodes\AuthNodeSystemSpeed.h" />
+    <ClInclude Include="Nodes\BaseAuthNodeElement.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Nodes\BaseAuthExtendedElement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\HookInit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Parless.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Utils\Patterns.cpp">
+      <Filter>Sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Win64\Debug\AuthExtended\Patterns.obj">
+      <Filter>obj\Win64\Debug\AuthExtended</Filter>
+    </None>
+    <None Include="obj\Win64\Release\AuthExtended\Patterns.obj">
+      <Filter>obj\Win64\Release\AuthExtended</Filter>
+    </None>
+  </ItemGroup>
+</Project>

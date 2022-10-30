@@ -1,0 +1,15 @@
+﻿  buffer.c
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\buffer.c(49,6): warning C4201: nonstandard extension used: nameless struct/union
+  hde32.c
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hde\hde32.c(325,1): warning C4206: nonstandard extension used: translation unit is empty
+  hde64.c
+  hook.c
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(403,44): warning C4310: cast truncates constant value
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(419,26): warning C4244: '=': conversion from 'BOOL' to 'UINT8', possible loss of data
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(420,26): warning C4244: '=': conversion from 'BOOL' to 'UINT8', possible loss of data
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(596,52): warning C4244: '=': conversion from 'BOOL' to 'UINT8', possible loss of data
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(780,49): warning C4244: '=': conversion from 'BOOL' to 'UINT8', possible loss of data
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\hook.c(787,51): warning C4244: '=': conversion from 'BOOL' to 'UINT8', possible loss of data
+  trampoline.c
+C:\Users\orhan\Documents\GitHub\AuthExtended\source\minhook\src\trampoline.c(285,19): warning C4244: '+=': conversion from 'UINT' to 'UINT8', possible loss of data
+  MinHook.vcxproj -> C:\Users\orhan\Documents\GitHub\AuthExtended\build\bin\Win64\Release\MinHook.lib
